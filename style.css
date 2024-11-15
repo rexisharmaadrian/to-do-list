@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fded06;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+.header {
+    background-color: #313131;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f0f4f8;
+}
+
+/* Main Content Styles */
+.main-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.form-label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.form-button {
+    background-color: #3f3e33;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-button i {
+    font-size: 1.2rem;
+}
+
+.form-button:hover {
+    background-color: #0099ff;
+}
+
+/* Todo List Styles */
+.todo-list {
+    margin-top: 1rem;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.todo-text {
+    font-size: 1rem;
+    flex: 1;
+}
+
+.todo-text.completed {
+    text-decoration: line-through;
+    color: #000000;
+}
+
+.todo-actions {
+    display: flex;
+    align-items: center;
+}
+
+.todo-actions i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    color: #241f1f;
+    transition: color 0.3s ease;
+}
+
+.todo-actions i:hover {
+    color: rgb(255, 0, 0);
+}
